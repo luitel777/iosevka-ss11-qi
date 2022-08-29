@@ -1,0 +1,25 @@
+[buildPlans.iosevka-ss11-qi]
+family = "Iosevka SS11 Qi"
+spacing = "term"
+serifs = "sans"
+no-cv-ss = false
+export-glyph-names = true
+no-ligation = true
+
+  [buildPlans.iosevka-ss11-qi.variants]
+  inherits = "ss11"
+
+    [buildPlans.iosevka-ss11-qi.variants.design]
+    lower-lambda = "straight"
+    zero = "reverse-slashed-split"
+    one = "no-base"
+    two = "curly-neck"
+    three = "flat-top"
+    four = "semi-open"
+    five = "oblique-upper-left-bar"
+    six = "straight-bar"
+    seven = "curly-serifless"
+    nine = "straight-bar"
+    tilde = "low"
+    underscore = "high"
+    percent = "rings-continuous-slash"
